@@ -42,6 +42,12 @@
              <scope>provided</scope>
         </dependency>
         
+        <dependency>  
+    		<groupId>org.primefaces</groupId>  
+    		<artifactId>primefaces</artifactId>  
+    		<version>5.1</version>  
+		</dependency>  
+        
     </dependencies>
 
     <build>
