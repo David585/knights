@@ -16,6 +16,7 @@ public class Player implements Serializable {
 	protected int health = 100;
 	protected int damage = 60;
 	
+	
 
 	public int getHealth() {
 		return health;
