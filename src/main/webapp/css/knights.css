@@ -63,7 +63,7 @@ body {
 
 #content .centerimage {
 	
-	padding-left:730px;
+	padding-left:740px;
 	
 }
 
@@ -97,11 +97,12 @@ input[type="submit"], input[type="button"] {
 
 #panelview {
 	padding-left:1200px;
+	padding-top:50px;
 }
 
 #panelviewstory {
 	padding-left:150px;
 	width: 350px;
 	position: absolute;
-	padding-bottom:1000px;
+	border:black 50px;
 }
