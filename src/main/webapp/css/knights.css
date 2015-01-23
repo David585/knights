@@ -49,7 +49,10 @@ body {
 
 #content .centerimage {
 	
-	padding-left:740px;
+	margin-left:705px;
+	border-style:outset;
+	border-width:5px;
+	border-color:green;
 	
 }
 
