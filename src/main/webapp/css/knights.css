@@ -1,7 +1,6 @@
 h1, p, body, html {
     margin:0;
     padding:0;
-    
 }
 
 body {
@@ -31,6 +30,7 @@ body {
     margin-bottom: 0px;
     font-family: papyrus;
     
+    text-align:center;
 }	
 
 
@@ -39,6 +39,10 @@ body {
     background-image: url("../resources/images/background.jpg");
     width:100%;
     height:100%;
+    background-attachment: fixed;
+    background-position: absolute;
+    backgroud-size:100%;
+    min-height:913px; 
     background-repeat:no-repeat;
     padding:0px; 
     margin:0px;
@@ -53,9 +57,15 @@ body {
 	font-family:Lucida Bright;
 	text-align:center;
 	color : white;
+	padding-top:20px;
+	padding-bottom:20px;
 }
 
-
+#content .centerimage {
+	
+	padding-left:730px;
+	
+}
 
 #footer {
     clear:both;	/*No floating elements are allowed on left or right*/
@@ -63,7 +73,7 @@ body {
     color : white;	
     text-align:center;
     font-weight: bold;
-    position:absolute;
+
     bottom:0px;
     width:100%;
     font-family:papyrus;
@@ -74,5 +84,24 @@ body {
 }
 
 input[type="submit"], input[type="button"] {
-	padding : 10px;
+	padding : 20px;
+	font-family: papyrus;
+}
+
+#content .buttonClass {
+	
+	margin-left:800px;
+	
+	
+}
+
+#panelview {
+	padding-left:1200px;
+}
+
+#panelviewstory {
+	padding-left:150px;
+	width: 350px;
+	position: absolute;
+	padding-bottom:1000px;
 }
