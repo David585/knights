@@ -13,7 +13,8 @@ body {
 
 #header { 
     background-color:grey;
-    color : white;	
+    color : white;
+    font-family: papyrus;
 }
 
 #header h1 {
