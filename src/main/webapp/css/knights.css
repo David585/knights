@@ -15,14 +15,9 @@ body {
 }
 
 #header { 
-	clear:both;
     background-color:green;
     color : white;
-    position:absolute;
-    top:0px;
-    width: 100%;
-    text-align: center;
-     
+    width:100%; 
     
 }
 
@@ -52,11 +47,9 @@ body {
 }
 
 #content h1 {
-	
-	align: center;
 	font-family:Lucida Bright;
+	color:white;
 	text-align:center;
-	color : white;
 	padding-top:20px;
 	padding-bottom:20px;
 }
