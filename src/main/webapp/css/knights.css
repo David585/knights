@@ -49,7 +49,7 @@ body {
 
 #content .centerimage {
 	
-	padding-left:750px;
+	padding-left:730px;
 	
 }
 
@@ -91,4 +91,5 @@ input[type="submit"], input[type="button"] {
 	padding-left:150px;
 	width: 350px;
 	position: absolute;
+	padding-bottom:1000px;
 }
