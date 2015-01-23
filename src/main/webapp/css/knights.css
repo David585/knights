@@ -12,29 +12,42 @@ body {
 }
 
 #header { 
-    background-color:grey;
+    background-color:green;
     color : white;
-    font-family: papyrus;
+    
 }
 
 #header h1 {
     margin-bottom: 0px;
+    font-family: papyrus;
 }	
+
 
 #content {
     float:left;
     width:100%;
+    background-image: url("../resources/images/background.jpg");
 }
+
+#content h1 {
+	
+	align: center;
+	font-family:Lucida Bright;
+	text-align:center;
+}
+
+
 
 #footer {
     clear:both;	/*No floating elements are allowed on left or right*/
-    background-color:grey;
+    background-color:green;
     color : white;	
     text-align:center;
     font-weight: bold;
     position:absolute;
     bottom:0;
     width:100%;
+    font-family:papyrus;
 }
 
 .errorMessage {
