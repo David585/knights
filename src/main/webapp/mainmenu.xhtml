@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" 
       xmlns:ui="http://java.sun.com/jsf/facelets" 
-      xmlns:h="http://java.sun.com/jsf/html">
+      xmlns:h="http://java.sun.com/jsf/html"
+      >
 
 <ui:composition template="/WEB-INF/templates/knights.xhtml">      
     <ui:define name="title">
@@ -13,19 +14,20 @@
     <ui:define name="content">
     
     <!-- Test from Paul  -->
-    
-        <h:panelGrid columns="2">
+    <h:form>
+    	<h:panelGrid columns="1">
         	<h:panelGroup>
-        		<h:form>
-				<h:commandButton value="Start" type="submit" height="200" width="200"
-					action="background"/>
-					
-				<h:commandButton value="Exit" type="submit" height="200" width="200"
-					action="testpage2"/>
-        	</h:form>
+        		
+        		
+        		<h:button outcome="background" value="Start">background</h:button>
+
+        		<h:button outcome="testpage2" value="Exit">background</h:button>        		
+
         	</h:panelGroup>
         
         </h:panelGrid>
+      </h:form>
+        
     </ui:define>
     
 

@@ -21,11 +21,35 @@
     <f:param name="autoPlay" value="false" />
 </p:media>
 
-<h:graphicImage value="/resources/images/darkknight.jpg" height="200" width="200" > </h:graphicImage>
+<h:graphicImage value="/resources/images/darkknight.jpg" height="200" width="200" id="imageknight" styleClass="centerimage" > </h:graphicImage>
 
 
+<div id="panelviewstory">
+<p:panelGrid columns="1" >
+ 
+    <h:outputText value="Exiled from the kingdom of Freren as a teenager for slaying the corrupted master of coin  , Gregor began his journey to conquer the kingdom of Freren owned by his very own father. Age 24, Gregor the Great has mastered the art sword combat. Town folk rumours claim he is the strongest knight in Freren, weilding a two handed sword passed down from his father." />
+</p:panelGrid>
+</div>
+
+<div id="panelview">
+<p:panelGrid columns="2">
+ 
+    <h:outputText value="Heath Points:" />
+    <h:outputText value="#{player.health}" />
+ 
+    <h:outputText value="Base Damage:" />
+    <h:outputText value="#{player.damage}" />
+    
+    <h:outputText value="Glinting Slash:" />
+    <h:outputText value="10" />
+    
+    <h:outputText value="Piercing Stab:" />
+    <h:outputText value="20" />
+ 
+</p:panelGrid>
+</div>
 <h:form>
-<h:commandButton value="Begin!" action="storyselect">
+<h:commandButton value="Begin!" action="storyselect" styleClass="buttonClass">
             </h:commandButton>
 </h:form>  
 
