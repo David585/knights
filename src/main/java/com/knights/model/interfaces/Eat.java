@@ -1,9 +1,11 @@
 package com.knights.model.interfaces;
 
+import com.knights.model.Food;
+
 public interface Eat
 {
 	//  
-    void consume(int food);
+    void consume(Food apple);
 
  
 

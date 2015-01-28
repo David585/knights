@@ -6,7 +6,7 @@ import com.knights.model.interfaces.Fight;
 
 public abstract class GameEntity implements Fight, Eat, Comparable<GameEntity>
 {
-	protected short atttackDamage;
+	protected short attackDamage;
 	protected short health;
 	protected String name;
 	
@@ -17,17 +17,17 @@ public abstract class GameEntity implements Fight, Eat, Comparable<GameEntity>
 
 	public void setName(String name)
 	{
-		this.name = "Gandalf";
+		this.name = name;
 	}
 
 	public short getAtttackDamage()
 	{
-		return atttackDamage;
+		return attackDamage;
 	}
 
-	public void setAtttackDamage(short atttackDamage)
+	public void setAttackDamage(short attackDamage)
 	{
-		this.atttackDamage = 20;
+		this.attackDamage = attackDamage;
 	}
 
 	public short getHealth()
@@ -37,31 +37,32 @@ public abstract class GameEntity implements Fight, Eat, Comparable<GameEntity>
 
 	public void setHealth(short health)
 	{
-		this.health = 50;
+		this.health = health;
 	}
 
 	
 	@Override
 	public int compareTo(GameEntity o)
 	{
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	/* Implement game objects
-	Player player = new Player();
-	Monster monster = new Monster();
-	Creature creature = new Creature();
-	Character character = new Character();
-	*/
-	
-	@Override
-	public void consume(int food)
-	{
-		// TODO Auto-generated method stub
+		int result = 0;
+		
+		// return -1 if o.health < this.health
+		if (o.health < this.health)
+		{
+			result = -1;
+		}
+		// return +1 if o.health > this.health 
+		else if (o.health > this.health)
+		{
+			result = 1;
+		}
+		
+		return result;
 		
 	}
 
+
+	
 	@Override
 	public int hashCode()
 	{
@@ -93,7 +94,7 @@ public abstract class GameEntity implements Fight, Eat, Comparable<GameEntity>
 	@Override
 	public String toString()
 	{
-		return "GameEntity [atttackDamage=" + atttackDamage + ", health="
+		return "GameEntity [atttackDamage=" + attackDamage + ", health="
 				+ health + ", name=" + name + "]";
 	}
 	
