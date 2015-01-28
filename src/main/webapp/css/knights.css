@@ -59,6 +59,24 @@ body {
 	margin-left:705px;
 	border-style:outset;
 	border-width:5px;
+	border-color:blue;
+	
+}
+
+#content .gameplayimg {
+	
+	margin-left:250px;
+	border-style:outset;
+	border-width:5px;
+	border-color:green;
+	
+}
+
+#content .guardimg {
+	
+	margin-left:1250px;
+	border-style:outset;
+	border-width:5px;
 	border-color:green;
 	
 }
