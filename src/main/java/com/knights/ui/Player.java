@@ -10,7 +10,9 @@ import javax.faces.bean.SessionScoped;
 public class Player implements Serializable {
 
 	private static final long serialVersionUID = 6666839705272565405L;
- 
+	
+	static int test = 1;
+  
 	
 	protected String name;
 	protected int health = 100;
@@ -19,14 +21,26 @@ public class Player implements Serializable {
 	
 
 	public int getHealth() {
+		test = 9;
 		return health;
+		
 	}
 
-	public void setHealth(int health) {
+	public void setHealth(int health, int damage) {
 		this.health = health;
 	}
 
-	public int getDamage() {
+	public int getDamage(int x) {
+		
+		int xy = Integer.parseInt("1");
+		
+		int test;
+		if(true){
+		test = 0;
+		System.out.println(test);
+		}
+		
+		//new Player().set
 		return damage;
 	}
 
