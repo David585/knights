@@ -1,4 +1,4 @@
-package com.knights.ui;
+package com.knights.model;
 
 import java.io.Serializable;
 

@@ -1,5 +1,7 @@
-package com.knights.ui;
+package com.knights.model;
 import java.lang.Comparable;
+
+import com.knights.model.interfaces.Eat;
 public abstract class GameEntity implements Eat, Comparable<GameEntity>  {
 	
 	 protected short health;

@@ -1,4 +1,6 @@
-package com.knights.ui;
+package com.knights.model;
+
+import com.knights.model.interfaces.ManEater;
 
 public class ManEatingCreature extends Creature implements ManEater {
 
