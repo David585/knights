@@ -7,6 +7,7 @@ public class ManEatingMonster extends Monster implements ManEater {
 	public ManEatingMonster() {
 		// TODO Auto-generated constructor stub
 		
+	
 		
 	}
 

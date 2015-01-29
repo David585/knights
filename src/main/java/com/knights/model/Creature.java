@@ -6,6 +6,10 @@ public class Creature extends GameEntity {
 		// TODO Auto-generated constructor stub
 		
 		
+	
+		
+	
+		
 	}
 
 }
